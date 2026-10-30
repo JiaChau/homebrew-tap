@@ -1,10 +1,18 @@
 # JiaChau Tap
 
-## How do I install these formulae?
+## Install PomoGoro
+
+```sh
+brew tap JiaChau/tap
+brew trust --cask JiaChau/tap/pomogoro
+brew install --cask JiaChau/tap/pomogoro
+```
+
+PomoGoro is ad hoc signed and not notarized. macOS may block it on first launch. If so, open it once, then use **System Settings → Privacy & Security → Open Anyway**.
+
+## Install other formulae
 
 `brew install jiachau/tap/<formula>`
-
-Or `brew tap jiachau/tap` and then `brew install <formula>`.
 
 Or, in a `brew bundle` `Brewfile`:
 
