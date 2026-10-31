@@ -8,6 +8,12 @@ brew trust --cask JiaChau/tap/pomogoro
 brew install --cask JiaChau/tap/pomogoro
 ```
 
+## Update PomoGoro
+
+```sh
+brew upgrade --cask JiaChau/tap/pomogoro
+```
+
 PomoGoro is ad hoc signed and not notarized. macOS may block it on first launch. If so, open it once, then use **System Settings → Privacy & Security → Open Anyway**.
 
 ## Install other formulae
